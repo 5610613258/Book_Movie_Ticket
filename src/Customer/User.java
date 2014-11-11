@@ -5,36 +5,39 @@ package Customer;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author Administrator
  */
 public final class User {
+
     // field
     protected String name;
     protected String Tel;
+
     //constructor
-    User(String name, String Tel){
+    User(String name, String Tel) {
         this.setName(name);
         this.setTel(Tel);
     }
 
     //method
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getTel() {
-        return Tel;
     }
 
     public void setTel(String Tel) {
         this.Tel = Tel;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getTel() {
+        return Tel;
+    }
+    
+   
     
 }
